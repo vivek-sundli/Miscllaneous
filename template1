@@ -1,0 +1,228 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Vivek Sundli} \\ \vspace{1pt}
+    \small (+91)788-870-7055 $|$ \href{mailto:viveksundli@gmail.com}{\underline{viveksundli@gmailcom}} $|$ 
+    \href{https://www.linkedin.com/in/vivek-sundli-96671b12b/}{\underline{linkedin}} $|$
+    \href{https://github.com/vivek-sundli}{\underline{github}}
+\end{center}
+
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {R\&D Engineer}{July 2020 -- Present}
+      {Nokia Solutions and Network}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Worked on Unified Data Management component under 5g-core teleservices.}
+        \resumeItem{Conducted requirement gathering for the related 5g use-cases.}
+        \resumeItem{Developed a JSON Validation tool enhancing the
+efficiency of the feature by 120\%.}
+        \resumeItem{Performed analysis, testing and bug fixing relating to Jira issues.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Student Intern}{Aug 2019 -- June 2020}
+      {Nokia Solutions and Network}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Carried out code analysis as part of the 4g-core session management team.}
+        \resumeItem{Automated regression features using Rapid
+Automation Framework Testing (RAFT) with RAFT
+specific scripts.}
+        \resumeItem{Contributed 5K+ lines of scripting code via Git during the tenure.}
+        \resumeItem{Analysed, Tested and fixed bug relating to client issues.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chandigarh University}{Punjab, India}
+      {Bachelor of Engineering in Computer Science}{Aug. 2016 -- May 2020}
+    \resumeSubheading
+      {Central Board of Secondary Education}{Chandigarh, India}
+      {Applied Sciences with Computer Science}{Aug. 2014 -- May 2016}
+  \resumeSubHeadingListEnd
+ 
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Big Data based Traffic monitoring system} $|$ \emph{Python, zookeeper, kafka , Spark streaming, Cassandra, JQuery}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a dummy IOT data processing and monitoring application.}
+            \resumeItem{Utilized Apache Spark to generate IOT messages captured by message broker which were later sent to streaming app for processing}
+            \resumeItem{Visualized the data in a dashboard}
+            \resumeItem{Used zookeeper to maintain the coordination between various services.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Bitcoin Price Aggregator} $|$ \emph{MongoDB, Express, React, NodeJs}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack price aggregator web application.}
+            \resumeItem{Used API's to fetch the real-time prices of the user selected crypto currency.}
+            \resumeItem{Utilized git bash for streamline control over the codebase.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------Awards and achievements-----------
+\section{Awards and Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Extra Mile Award(Nokia)}{: Award for showcasing excellent teamwork and commitment towards the feature for its timely delivery to the customer.} \\
+     \textbf{Certificate of Merit(Ministry of Education,India)}{: Awarded with a certificate of appreciation for scoring a perfect score of 10 along with a cash price.}\\
+     \textbf{Problem solving with DSA and Algorithms}{: Solved a cumulative of 400+ problems across various websites including }\href{https://leetcode.com/viveksundli/}{\underline{leetcode.}}
+    }}
+ \end{itemize}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, C , python, Java, SQL, JavaScript, HTML5/CSS3, R} \\
+     \textbf{Frameworks/Libraries}{: React, RAFT, NumPy, Scikit, Pandas, WordPress, Android} \\
+     \textbf{Developer Tools}{: Git, WinSCP, Wireshark, Mobaxterm, Docker, AWS(basics), VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse}
+    }}
+ \end{itemize}
+
+
+%-----------Soft SKILLS-----------
+\section{Soft Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: English, Hindi, Punjabi, Garhwali.} \\
+     \textbf{Miscellaneous}{: Problem Solving, Time Management, Flexibility, Leadership, Documentation, Communication.}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
